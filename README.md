@@ -24,10 +24,10 @@ MATLAB
 
 ## Folder descriptions:
 
-*Data Preprocessing.m*: This is used to extract raw CSI data, apply Hampel filter, moving average filter, and Butterworth low-pass filter for denoising, then perform PCA combined with mutual information computation to select the top 30 most discriminative subcarriers.
+*Data Preprocessing.m*: This is used to preprocess raw CSI data and select discriminative subcarriers.
 
-*Data Augmentation-v1.py*: This is used to implement the core conditional diffusion-based data augmentation pipeline, including the domain feature extraction module and the generation module.
+*Data Augmentation-v1.py*: This is used to implement the core modules for conditional diffusion-based data augmentation.
 
-*Data Augmentation-v2.py*: This is built upon *Data Augmentation-v1.py* and further incorporates domain consistency loss and domain-guided diffusion loss to generate pseudo samples that closely match the target-domain distribution.
+*Data Augmentation-v2.py*: This is used to generate augmented pseudo samples based on the source data. It calls modules from *Data Augmentation-v1.py*.
 
-*Activity Recognition.py*: This is used to conduct cross-domain activity recognition using a hybrid CNN-BiLSTM network trained with triplet loss, and performs nearest-neighbor inference over a 5-shot support set.
+*Activity Recognition.py*: This is used to conduct activity recognition.
