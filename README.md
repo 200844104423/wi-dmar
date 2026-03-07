@@ -10,10 +10,6 @@ The two public datasets used in the paper are shown below.
 
 The Widar3.0 dataset comes from the link below: https://tns.thss.tsinghua.edu.cn/widar3.0/
 
-It is also available via:
-- IEEE DataPort: https://ieee-dataport.org/open-access/widar-30-wifi-based-activity-recognition-dataset
-- Baidu Disk (password: 4m47): https://pan.baidu.com
-
 ### SignFi Dataset
 
 The SignFi dataset comes from the link below: https://github.com/yongsen/SignFi
