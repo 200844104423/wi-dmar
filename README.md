@@ -27,8 +27,6 @@ PyTorch
 
 MATLAB
 
-The codes are tested under Windows 10.
-
 ## Folder descriptions:
 
 *Data Preprocessing.m*: This is used to extract raw CSI data, apply Hampel filter, moving average filter, and Butterworth low-pass filter for denoising, then perform PCA combined with mutual information computation to select the top 30 most discriminative subcarriers.
