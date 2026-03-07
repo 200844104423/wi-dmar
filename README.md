@@ -13,7 +13,6 @@ The Widar3.0 dataset comes from the link below: https://tns.thss.tsinghua.edu.cn
 It is also available via:
 - IEEE DataPort: https://ieee-dataport.org/open-access/widar-30-wifi-based-activity-recognition-dataset
 - Baidu Disk (password: 4m47): https://pan.baidu.com
-- FTP (FileZilla client recommended): `166.111.80.127:40121` (username: widarftp, password: widar2019)
 
 ### SignFi Dataset
 
