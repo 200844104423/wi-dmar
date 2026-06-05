@@ -28,6 +28,4 @@ MATLAB
 
 *Data Augmentation-v1.py*: This is used to implement the core modules for conditional diffusion-based data augmentation.
 
-*Data Augmentation-v2.py*: This is used to generate augmented pseudo samples based on the source data. It calls modules from *Data Augmentation-v1.py*.
-
 *Activity Recognition.py*: This is used to conduct activity recognition.
